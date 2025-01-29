@@ -10,5 +10,6 @@ public class Example6 {
         Vehicle vehicle = context.getBean(Vehicle.class);
         System.out.println("The Bean Instance: "+vehicle.getName());
         vehicle.printHello();
+        context.close();
     }
 }

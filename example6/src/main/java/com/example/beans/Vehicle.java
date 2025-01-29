@@ -1,6 +1,7 @@
 package com.example.beans;
 
 import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Repository;
@@ -21,6 +22,11 @@ public class Vehicle {
     @PostConstruct
     public void initialize() {
         this.name = "Honda";
+    }
+
+    @PreDestroy
+    public void destroy() {
+        System.out.println("Destroying the Vehicle bean.");
     }
 
     public  void printHello(){
