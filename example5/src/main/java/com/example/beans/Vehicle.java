@@ -9,6 +9,10 @@ import org.springframework.stereotype.Service;
 public class Vehicle {
     private String name;
 
+    public Vehicle() {
+        System.out.println("Vehicle bean created by spring.");
+    }
+
     public String getName() {
         return name;
     }

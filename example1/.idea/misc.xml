@@ -19,6 +19,9 @@
         <option value="$PROJECT_DIR$/../example13/pom.xml" />
         <option value="$PROJECT_DIR$/../example14/pom.xml" />
         <option value="$PROJECT_DIR$/../example15/pom.xml" />
+        <option value="$PROJECT_DIR$/../assignmentSingleton/pom.xml" />
+        <option value="$PROJECT_DIR$/../assignmentAutowiring/pom.xml" />
+        <option value="$PROJECT_DIR$/../assignmentPrototype/pom.xml" />
       </list>
     </option>
   </component>
